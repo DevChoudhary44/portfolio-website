@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,24 @@
 
     <title>Dev Choudhary - Blockchain Developer & Cryptographer</title>
 
-     <!-- SEO Meta Tags -->
-    <meta name="description" content="Portfolio of Dev Choudhary - Aspiring Blockchain Developer, Web Developer, Cryptography, Artificial Intelligence and Cloud Computing enthusiast.">
-    <meta name="keywords" content="Dev Choudhary, Blockchain, Blockchain Technology, Web Development, Cryptography, AI, Cloud Computing, Portfolio">
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Portfolio of Dev Choudhary - Aspiring Blockchain Developer, Web Developer, Cryptography, Artificial Intelligence and Cloud Computing enthusiast.">
+    <meta name="keywords"
+        content="Dev Choudhary, Blockchain, Blockchain Technology, Web Development, Cryptography, AI, Cloud Computing, Portfolio">
     <meta name="author" content="Dev Choudhary">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Dev Choudhary | Portfolio">
-    <meta property="og:description" content="Aspiring Blockchain Developer | Web Development | Cryptography | Artificial Intelligence | Cloud Computing">
+    <meta property="og:description"
+        content="Aspiring Blockchain Developer | Web Development | Cryptography | Artificial Intelligence | Cloud Computing">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://portfolio-website-lemon-iota-73.vercel.app/">
 
     <!-- Social Preview Image -->
     <meta property="og:image" content="https://portfolio-website-lemon-iota-73.vercel.app/images/social-preview.png">
-    <meta property="og:image:secure_url" content="https://portfolio-website-lemon-iota-73.vercel.app/images/social-preview.png">
+    <meta property="og:image:secure_url"
+        content="https://portfolio-website-lemon-iota-73.vercel.app/images/social-preview.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -31,7 +36,8 @@
     <!-- Twitter/X Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dev Choudhary | Portfolio">
-    <meta name="twitter:description" content="Aspiring Blockchain Developer | Web Development | Cryptography | Artificial Intelligence | Cloud Computing">
+    <meta name="twitter:description"
+        content="Aspiring Blockchain Developer | Web Development | Cryptography | Artificial Intelligence | Cloud Computing">
     <meta name="twitter:image" content="https://portfolio-website-lemon-iota-73.vercel.app/images/social-preview.png">
 
 
@@ -108,14 +114,12 @@
             pointer-events: none;
             z-index: -2;
             background:
-                radial-gradient(circle at 50% 50%, transparent 0%, rgba(0,0,0,0.35) 70%, rgba(0,0,0,0.7) 100%),
-                repeating-linear-gradient(
-                    45deg,
+                radial-gradient(circle at 50% 50%, transparent 0%, rgba(0, 0, 0, 0.35) 70%, rgba(0, 0, 0, 0.7) 100%),
+                repeating-linear-gradient(45deg,
                     transparent 0 18px,
                     rgba(0, 255, 136, 0.03) 18px 20px,
                     transparent 20px 36px,
-                    rgba(125, 43, 226, 0.03) 36px 38px
-                );
+                    rgba(125, 43, 226, 0.03) 36px 38px);
             mix-blend-mode: screen;
             animation: chainDrift 24s linear infinite;
         }
@@ -131,13 +135,23 @@
         }
 
         @keyframes gridFlow {
-            0%   { background-position: 0 0, 0 0; }
-            100% { background-position: 0 80px, 80px 0; }
+            0% {
+                background-position: 0 0, 0 0;
+            }
+
+            100% {
+                background-position: 0 80px, 80px 0;
+            }
         }
 
         @keyframes chainDrift {
-            0%   { transform: translate3d(0,0,0); }
-            100% { transform: translate3d(40px,40px,0); }
+            0% {
+                transform: translate3d(0, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(40px, 40px, 0);
+            }
         }
 
         /* ==================== ANIMATIONS ==================== */
@@ -146,6 +160,7 @@
                 opacity: 0;
                 transform: translateY(-100px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -157,6 +172,7 @@
                 opacity: 0;
                 transform: translateY(100px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -164,46 +180,81 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
         }
 
         @keyframes glow {
-            0%, 100% { 
+
+            0%,
+            100% {
                 box-shadow: 0 0 10px rgba(0, 212, 255, 0.3), inset 0 0 10px rgba(0, 212, 255, 0.1);
             }
-            50% { 
+
+            50% {
                 box-shadow: 0 0 30px rgba(0, 212, 255, 0.6), inset 0 0 20px rgba(0, 212, 255, 0.2);
             }
         }
 
         @keyframes shimmer {
-            0% { background-position: -1000px 0; }
-            100% { background-position: 1000px 0; }
+            0% {
+                background-position: -1000px 0;
+            }
+
+            100% {
+                background-position: 1000px 0;
+            }
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.7;
+            }
         }
 
         @keyframes cyberGlow {
-            0%, 100% { 
+
+            0%,
+            100% {
                 box-shadow: 0 0 5px rgba(0, 212, 255, 0.3), 0 0 10px rgba(255, 0, 85, 0.1);
             }
-            50% { 
+
+            50% {
                 box-shadow: 0 0 15px rgba(0, 212, 255, 0.6), 0 0 25px rgba(255, 0, 85, 0.3);
             }
         }
 
         @keyframes rotate {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         /* ==================== HEADER & NAVIGATION ==================== */
@@ -1111,7 +1162,7 @@
         .reveal {
             opacity: 0;
             transition: opacity 0.9s cubic-bezier(0.4, 0, 0.2, 1),
-                        transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+                transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
             will-change: opacity, transform;
         }
 
@@ -1137,7 +1188,7 @@
         }
 
         /* Stagger children of grids that are revealed together */
-        .reveal-stagger.active > * {
+        .reveal-stagger.active>* {
             animation: none;
         }
 
@@ -1203,8 +1254,15 @@
         }
 
         @keyframes splashPop {
-            from { opacity: 0; transform: scale(0.85) translateY(30px); }
-            to   { opacity: 1; transform: scale(1) translateY(0); }
+            from {
+                opacity: 0;
+                transform: scale(0.85) translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
         }
 
         .splash-photo-wrap {
@@ -1376,15 +1434,18 @@
             .splash-card {
                 padding: 35px 22px 28px;
             }
+
             .splash-name {
                 font-size: 32px;
             }
+
             .splash-badge {
                 width: 80px;
             }
         }
     </style>
 </head>
+
 <body class="splash-active">
     <!-- ==================== INTRO BANNER / SPLASH SCREEN ==================== -->
     <div id="splash-screen">
@@ -1406,12 +1467,16 @@
             <p class="splash-desc">Building secure solutions through Blockchain, Cryptography & AI.</p>
 
             <div class="splash-socials">
-                <a href="https://github.com/dev44choudhary-debug" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/dev-choudhary-2006june" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://instagram.com/devgadwal2006" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/dev44choudhary-debug" target="_blank" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/dev-choudhary-2006june" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/devgadwal2006" target="_blank" title="Instagram"><i
+                        class="fab fa-instagram"></i></a>
             </div>
 
-            <button class="splash-enter-btn" onclick="enterPortfolio()"><i class="fas fa-arrow-right"></i> Enter Portfolio</button>
+            <button class="splash-enter-btn" onclick="enterPortfolio()"><i class="fas fa-arrow-right"></i> Enter
+                Portfolio</button>
             <p class="splash-hint">Click to explore my work</p>
         </div>
     </div>
@@ -1436,7 +1501,7 @@
             </ul>
         </nav>
     </header>
-<!--=============================================================================================================-->
+    <!--=============================================================================================================-->
     <!-- Hero Section -->
     <section id="hero">
         <div class="hero-image reveal reveal-left">
@@ -1445,7 +1510,10 @@
         <div class="hero-content reveal reveal-right">
             <h1>Hi, I'm Dev Choudhary 👋</h1>
             <h2>Blockchain Developer | Web Developer | Cryptographer | Cloud Computing Learner | AI Explorer</h2>
-            <p>I am a B.Tech student specializing in Blockchain Technology with a passion for building secure web applications, exploring cryptographic systems, and developing decentralized solutions. I enjoy learning new technologies and creating practical projects that strengthen my problem-solving and software development skills.</p>
+            <p>I am a B.Tech student specializing in Blockchain Technology with a passion for building secure web
+                applications, exploring cryptographic systems, and developing decentralized solutions. I enjoy learning
+                new technologies and creating practical projects that strengthen my problem-solving and software
+                development skills.</p>
             <div class="btn-container">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
                 <a href="images/resume.png" download class="btn btn-primary">Download Resume</a>
@@ -1453,22 +1521,27 @@
             </div>
         </div>
     </section>
-<!--=============================================================================================================-->
+    <!--=============================================================================================================-->
     <!-- About Section -->
     <section id="about">
         <h2 class="section-title reveal reveal-up">About Me</h2>
-        <p class="reveal reveal-left">I am an undergraduate Blockchain Technology student with a strong interest in secure software development, modern web technologies, cloud computing, and artificial intelligence.</p>
-        <p class="reveal reveal-right">My learning journey focuses on developing practical skills through projects, internships, and continuous learning. I enjoy working on blockchain applications, cryptography implementations, responsive web interfaces, and backend technologies.</p>
-        <p class="reveal reveal-left">I believe in learning by building, and every project I complete helps me improve my technical and problem-solving abilities.</p>
+        <p class="reveal reveal-left">I am an undergraduate Blockchain Technology student with a strong interest in
+            secure software development, modern web technologies, cloud computing, and artificial intelligence.</p>
+        <p class="reveal reveal-right">My learning journey focuses on developing practical skills through projects,
+            internships, and continuous learning. I enjoy working on blockchain applications, cryptography
+            implementations, responsive web interfaces, and backend technologies.</p>
+        <p class="reveal reveal-left">I believe in learning by building, and every project I complete helps me improve
+            my technical and problem-solving abilities.</p>
     </section>
-<!--=============================================================================================================-->
+    <!--=============================================================================================================-->
     <!-- Education & Experience Section -->
     <section id="edu-exp">
         <h2 class="section-title reveal reveal-up">Education & Experience</h2>
         <div class="edu-exp-container">
             <!-- Education -->
             <div class="reveal reveal-left">
-                <h2 class="section-title" style="text-align: left; margin-bottom: 20px; font-size: 28px; margin-top: 0;">🎓 Education</h2>
+                <h2 class="section-title"
+                    style="text-align: left; margin-bottom: 20px; font-size: 28px; margin-top: 0;">🎓 Education</h2>
                 <div class="card">
                     <h3>JECRC University</h3>
                     <h4>B.Tech in Blockchain Technology</h4>
@@ -1484,39 +1557,45 @@
                     </div>
                 </div>
             </div>
-<!--=============================================================================================================-->
+            <!--=============================================================================================================-->
             <!-- Experience 1 -->
             <div class="reveal reveal-right">
-                <h2 class="section-title" style="text-align: left; margin-bottom: 20px; font-size: 28px; margin-top: 0;">💼 Experience</h2>
+                <h2 class="section-title"
+                    style="text-align: left; margin-bottom: 20px; font-size: 28px; margin-top: 0;">💼 Experience</h2>
                 <div class="card">
                     <h3>Web Development Intern</h3>
                     <h4>Corizo</h4>
-                    <p>Gained hands-on experience in building responsive user interfaces, collaborating on web projects, and implementing fundamental frontend technologies.</p>
+                    <p>Gained hands-on experience in building responsive user interfaces, collaborating on web projects,
+                        and implementing fundamental frontend technologies.</p>
                 </div>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------->
             <!-- Experience 2 -->
             <div class="reveal reveal-left">
-                <h2 class="section-title" style="text-align: left; margin-bottom: 20px; font-size: 28px; margin-top: 0;">💼 Experience</h2>
+                <h2 class="section-title"
+                    style="text-align: left; margin-bottom: 20px; font-size: 28px; margin-top: 0;">💼 Experience</h2>
                 <div class="card">
                     <h3>Web Development Intern</h3>
                     <h4>AICTE</h4>
-                    <p>Created responsive websites and gained practical experience in modern web development practices and technologies.</p>
+                    <p>Created responsive websites and gained practical experience in modern web development practices
+                        and technologies.</p>
                 </div>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------->
             <!-- Experience 3 -->
             <div class="reveal reveal-right">
-                <h2 class="section-title" style="text-align: left; margin-bottom: 20px; font-size: 28px; margin-top: 0;">☁️ Experience</h2>
+                <h2 class="section-title"
+                    style="text-align: left; margin-bottom: 20px; font-size: 28px; margin-top: 0;">☁️ Experience</h2>
                 <div class="card">
                     <h3>AWS Cloud Intern</h3>
                     <h4>AICTE and Bee Skilled</h4>
-                    <p>Learned about Cloud Computing fundamentals and explored various AWS services and cloud infrastructure management.</p>
+                    <p>Learned about Cloud Computing fundamentals and explored various AWS services and cloud
+                        infrastructure management.</p>
                 </div>
             </div>
         </div>
     </section>
-<!--=============================================================================================================-->
+    <!--=============================================================================================================-->
     <!-- Skills Section -->
     <section id="skills">
         <h2 class="section-title reveal reveal-up">Skills & Expertise</h2>
@@ -1560,190 +1639,235 @@
             <div class="project-card reveal reveal-left">
                 <div class="project-info">
                     <h3>🔐 RSA Digital Signature System</h3>
-                    <p>Implemented a secure RSA-based digital signature system using OpenSSL. Demonstrated key generation, document signing, and signature verification.</p>
+                    <p>Implemented a secure RSA-based digital signature system using OpenSSL. Demonstrated key
+                        generation, document signing, and signature verification.</p>
                     <div class="project-tech">OpenSSL • Cryptography • RSA</div>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/dev44choudhary-debug/RSA-Security-" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                    <a href="https://github.com/dev44choudhary-debug/RSA-Security-" target="_blank"><i
+                            class="fab fa-github"></i> Repository</a>
                 </div>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------->
             <div class="project-card reveal reveal-right">
                 <div class="project-info">
                     <h3>📁 File Integrity Checker</h3>
-                    <p>Developed a hashing-based file integrity verification system using SHA-256 to detect unauthorized file modifications.</p>
+                    <p>Developed a hashing-based file integrity verification system using SHA-256 to detect unauthorized
+                        file modifications.</p>
                     <div class="project-tech">SHA-256 • Cryptography</div>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/dev44choudhary-debug/File-Integrity-Checker" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                    <a href="https://github.com/dev44choudhary-debug/File-Integrity-Checker" target="_blank"><i
+                            class="fab fa-github"></i> Repository</a>
                 </div>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------->
             <div class="project-card reveal reveal-right">
                 <div class="project-info">
                     <h3>⚙️ CRUD Web Application</h3>
-                    <p>Created a CRUD-based web application demonstrating basic database operations with a responsive user interface.</p>
+                    <p>Created a CRUD-based web application demonstrating basic database operations with a responsive
+                        user interface.</p>
                     <div class="project-tech">HTML • CSS • JavaScript</div>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/dev44choudhary-debug/v0-crud-web-application-design" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                    <a href="https://github.com/dev44choudhary-debug/v0-crud-web-application-design" target="_blank"><i
+                            class="fab fa-github"></i> Repository</a>
                 </div>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------->
             <div class="project-card reveal reveal-left">
                 <div class="project-info">
                     <h3>📊 ECC Security System</h3>
-                    <p>Created an ECC Security System to demonstrate the working of elliptic curves in Cryptography with advanced encryption capabilities.</p>
+                    <p>Created an ECC Security System to demonstrate the working of elliptic curves in Cryptography with
+                        advanced encryption capabilities.</p>
                     <div class="project-tech">Elliptic Curves • Algorithms</div>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/dev44choudhary-debug/ECC-Security-System" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                    <a href="https://github.com/dev44choudhary-debug/ECC-Security-System" target="_blank"><i
+                            class="fab fa-github"></i> Repository</a>
                 </div>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------->
             <div class="project-card reveal reveal-right">
                 <div class="project-info">
                     <h3>🔑 RSA Security System</h3>
-                    <p>Developed an RSA key pair security system for secure message transfer and maintaining data integrity with advanced features.</p>
+                    <p>Developed an RSA key pair security system for secure message transfer and maintaining data
+                        integrity with advanced features.</p>
                     <div class="project-tech">RSA • Cryptography</div>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/dev44choudhary-debug/RSA-Security-" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                    <a href="https://github.com/dev44choudhary-debug/RSA-Security-" target="_blank"><i
+                            class="fab fa-github"></i> Repository</a>
                 </div>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------->
             <div class="project-card reveal reveal-left">
                 <div class="project-info">
                     <h3>₿ Bitcoin Transaction Security System</h3>
-                    <p>Created a system to manage Bitcoin transactions using blockchain and ECC security system with focus on security and efficiency.</p>
+                    <p>Created a system to manage Bitcoin transactions using blockchain and ECC security system with
+                        focus on security and efficiency.</p>
                     <div class="project-tech">Blockchain • ECC • Cryptography</div>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/dev44choudhary-debug/Bitcoin-transaction-management-system" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                    <a href="https://github.com/dev44choudhary-debug/Bitcoin-transaction-management-system"
+                        target="_blank"><i class="fab fa-github"></i> Repository</a>
                 </div>
             </div>
 
-            
+
     </section>
 
 
-<!--=============================================================================================================-->
+    <!--=============================================================================================================-->
 
 
 
- <!-- Certifications Section - WITH MODAL FOR CERTIFICATE IMAGES -->
-  
+    <!-- Certifications Section - WITH MODAL FOR CERTIFICATE IMAGES -->
+
     <section id="certificates">
         <h2 class="section-title reveal reveal-up">Certifications & Achievements</h2>
         <div class="cert-grid">
-            <div class="cert-card reveal reveal-left" onclick="openCertModal('images/Web Development.png', 'Web Development – upGrad')">
+            <div class="cert-card reveal reveal-left"
+                onclick="openCertModal('images/Web Development.png', 'Web Development – upGrad')">
                 <div class="cert-icon">
                     <i class="fas fa-laptop-code"></i>
                 </div>
                 <h4>Web Development</h4>
                 <p class="cert-org">upGrad • 2024</p>
-                <a href="images/Web Development.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Web Development.png', 'Web Development – upGrad')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Web Development.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Web Development.png', 'Web Development – upGrad')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
-            <div class="cert-card reveal reveal-right" onclick="openCertModal('images/Object Oriented Programming in Java.png', 'OOP in JAVA – upGrad')">
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="cert-card reveal reveal-right"
+                onclick="openCertModal('images/Object Oriented Programming in Java.png', 'OOP in JAVA – upGrad')">
                 <div class="cert-icon">
                     <i class="fab fa-java"></i>
                 </div>
                 <h4>Object Oriented Programming in Java</h4>
                 <p class="cert-org">upGrad • 2024</p>
-                <a href="images/Object Oriented Programming in Java.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Object Oriented Programming in Java.png', 'OOP in JAVA – upGrad')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Object Oriented Programming in Java.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Object Oriented Programming in Java.png', 'OOP in JAVA – upGrad')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------->
             <div class="cert-card reveal reveal-left" onclick="openCertModal('images/IBM.png', 'Intro to Cloud – IBM')">
                 <div class="cert-icon">
                     <i class="fas fa-cloud"></i>
                 </div>
                 <h4>Introduction to Cloud</h4>
                 <p class="cert-org">IBM • 2024</p>
-                <a href="images/IBM.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/IBM.png', 'Intro to Cloud – IBM')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/IBM.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/IBM.png', 'Intro to Cloud – IBM')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
-            <div class="cert-card reveal reveal-right" onclick="openCertModal('images/Tata Job Simulation.png', 'Job Simulation – Forage')">
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="cert-card reveal reveal-right"
+                onclick="openCertModal('images/Tata Job Simulation.png', 'Job Simulation – Forage')">
                 <div class="cert-icon">
                     <i class="fas fa-briefcase"></i>
                 </div>
                 <h4>Tata Job Simulation</h4>
                 <p class="cert-org">Forage • 2024</p>
-                <a href="images/Tata Job Simulation.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Tata Job Simulation.png', 'Job Simulation – Forage')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Tata Job Simulation.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Tata Job Simulation.png', 'Job Simulation – Forage')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
-            <div class="cert-card reveal reveal-left" onclick="openCertModal('images/Corizo Training.png', 'Web Dev Training – Corizo')">
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="cert-card reveal reveal-left"
+                onclick="openCertModal('images/Corizo Training.png', 'Web Dev Training – Corizo')">
                 <div class="cert-icon">
                     <i class="fas fa-chalkboard-teacher"></i>
                 </div>
                 <h4>Web Development Training</h4>
                 <p class="cert-org">Corizo • 2024</p>
-                <a href="images/Corizo Training.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Corizo Training.png', 'Web Dev Training – Corizo')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Corizo Training.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Corizo Training.png', 'Web Dev Training – Corizo')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
-            <div class="cert-card reveal reveal-right" onclick="openCertModal('images/Corizo Intern.jpg', 'Web Dev Internship – Corizo')">
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="cert-card reveal reveal-right"
+                onclick="openCertModal('images/Corizo Intern.jpg', 'Web Dev Internship – Corizo')">
                 <div class="cert-icon">
                     <i class="fas fa-user-graduate"></i>
                 </div>
                 <h4>Web Development Internship</h4>
                 <p class="cert-org">Corizo • 2024</p>
-                <a href="images/Corizo Intern.jpg" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Corizo Intern.jpg', 'Web Dev Internship – Corizo')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Corizo Intern.jpg" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Corizo Intern.jpg', 'Web Dev Internship – Corizo')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
-            <div class="cert-card reveal reveal-left" onclick="openCertModal('images/Google Cloud.png', 'Google Cloud Skills – Google')">
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="cert-card reveal reveal-left"
+                onclick="openCertModal('images/Google Cloud.png', 'Google Cloud Skills – Google')">
                 <div class="cert-icon">
                     <i class="fab fa-google"></i>
                 </div>
                 <h4>Google Cloud Skills</h4>
                 <p class="cert-org">Google • 2024</p>
-                <a href="images/Google Cloud.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Google Cloud.png', 'Google Cloud Skills – Google')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Google Cloud.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Google Cloud.png', 'Google Cloud Skills – Google')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
-            <div class="cert-card reveal reveal-right" onclick="openCertModal('images/Deloitte.png', 'Job Simulation – Deloitte')">
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="cert-card reveal reveal-right"
+                onclick="openCertModal('images/Deloitte.png', 'Job Simulation – Deloitte')">
                 <div class="cert-icon">
                     <i class="fas fa-building"></i>
                 </div>
                 <h4>Deloitte Job Simulation</h4>
                 <p class="cert-org">Deloitte • 2024</p>
-                <a href="images/Deloitte.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Deloitte.png', 'Job Simulation – Deloitte')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Deloitte.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Deloitte.png', 'Job Simulation – Deloitte')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
-            <div class="cert-card reveal reveal-left" onclick="openCertModal('images/Simplilearn SkillUp.png', 'Data Structures – SimpliLearn')">
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="cert-card reveal reveal-left"
+                onclick="openCertModal('images/Simplilearn SkillUp.png', 'Data Structures – SimpliLearn')">
                 <div class="cert-icon">
                     <i class="fas fa-database"></i>
                 </div>
                 <h4>Data Structures & Algorithms</h4>
                 <p class="cert-org">Simplilearn • 2024</p>
-                <a href="images/Simplilearn SkillUp.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Simplilearn SkillUp.png', 'Data Structures – SimpliLearn')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Simplilearn SkillUp.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Simplilearn SkillUp.png', 'Data Structures – SimpliLearn')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
-<!----------------------------------------------------------------------------------------------------------------->
-            <div class="cert-card reveal reveal-right" onclick="openCertModal('images/Bootcamp.png', 'BootCamp – Let\'s Upgrad')">
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="cert-card reveal reveal-right"
+                onclick="openCertModal('images/Bootcamp.png', 'BootCamp – Let\'s Upgrad')">
                 <div class="cert-icon">
                     <i class="fas fa-rocket"></i>
                 </div>
                 <h4>Development Bootcamp</h4>
                 <p class="cert-org">Let's Upgrad • 2024</p>
-                <a href="images/Bootcamp.png" class="cert-verify-btn" onclick="event.stopPropagation(); openCertModal('images/Bootcamp.png', 'BootCamp – Let\'s Upgrad')"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                <a href="images/Bootcamp.png" class="cert-verify-btn"
+                    onclick="event.stopPropagation(); openCertModal('images/Bootcamp.png', 'BootCamp – Let\'s Upgrad')"><i
+                        class="fas fa-external-link-alt"></i> View Certificate</a>
             </div>
         </div>
     </section>
 
-    
 
-<!--=============================================================================================================-->    
-                
-           
+
+    <!--=============================================================================================================-->
+
+
 
     <!-- Contact Section -->
     <section id="contact">
         <h2 class="section-title reveal reveal-up">Get In Touch</h2>
         <div class="contact-container reveal reveal-up">
-            <p>I'm always open to discussing new opportunities, projects, or technical topics. Feel free to connect with me!</p>
+            <p>I'm always open to discussing new opportunities, projects, or technical topics. Feel free to connect with
+                me!</p>
             <a href="mailto:dev44choudhary@gmail.com" class="btn btn-primary">Send an Email</a>
             <div class="social-links">
-                <a href="https://github.com/dev44choudhary-debug" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/dev-choudhary-2006june" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://instagram.com/devgadwal2006" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/dev44choudhary-debug" target="_blank" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/dev-choudhary-2006june" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/devgadwal2006" target="_blank" title="Instagram"><i
+                        class="fab fa-instagram"></i></a>
             </div>
         </div>
     </section>
@@ -1752,7 +1876,9 @@
     <footer>
         <p>© 2024 Dev Choudhary. Building Secure, Scalable, Transparent Solutions.</p>
         <p>System Access Granted | Welcome to my world...</p>
-        <p style="margin-top: 15px; font-size: 12px; color: var(--primary-color);">< code. encrypt. deploy. repeat. /></p>
+        <p style="margin-top: 15px; font-size: 12px; color: var(--primary-color);">
+            < code. encrypt. deploy. repeat. />
+        </p>
     </footer>
 
     <!-- JavaScript -->
@@ -1766,7 +1892,7 @@
         }
 
         // Allow Enter/Escape key to dismiss splash too
-        document.addEventListener('keydown', function(e) {
+        document.addEventListener('keydown', function (e) {
             const splash = document.getElementById('splash-screen');
             if (splash && !splash.classList.contains('hide') && (e.key === 'Enter' || e.key === 'Escape')) {
                 enterPortfolio();
@@ -1785,7 +1911,7 @@
         }
 
         // Close menu when clicking outside
-        document.addEventListener('click', function(event) {
+        document.addEventListener('click', function (event) {
             const nav = document.querySelector('nav');
             const toggle = document.querySelector('.nav-toggle');
             if (!nav.contains(event.target) && !toggle.contains(event.target)) {
@@ -1799,7 +1925,7 @@
             rootMargin: '0px 0px -80px 0px'
         };
 
-        const revealObserver = new IntersectionObserver(function(entries) {
+        const revealObserver = new IntersectionObserver(function (entries) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('active');
@@ -1816,7 +1942,7 @@
 
         // Smooth scroll offset for fixed header
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 const href = this.getAttribute('href');
                 if (href !== '#') {
                     e.preventDefault();
@@ -1934,4 +2060,5 @@
         });
     </script>
 </body>
+
 </html>
